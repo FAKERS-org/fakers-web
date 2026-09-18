@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "about": "About",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Independent IT & AI Services",
+    "title": "Intelligent Infrastructure for Modern Enterprises",
+    "subtitle": "FAKERS Organization bridges the gap between complex IT environments and cutting-edge applied AI solutions. We build, secure, and optimize the technical foundation of your business.",
+    "primaryCTA": "Explore Solutions",
+    "secondaryCTA": "Contact Sales"
+  },
+  "services": {
+    "badge": "Core Expertise",
+    "title": "Comprehensive Technical Capabilities",
+    "subtitle": "From ground-up infrastructure to advanced machine learning integrations, we deliver end-to-end technical excellence.",
+    "ai": {
+      "title": "Applied AI Solutions",
+      "description": "Custom machine learning models, LLM integrations, and automated data pipelines designed to solve specific business challenges.",
+      "features": ["Generative AI Integration", "Predictive Analytics", "Process Automation"]
+    },
+    "cloud": {
+      "title": "Cloud Infrastructure",
+      "description": "Scalable, resilient, and highly available cloud environments tailored to your performance requirements.",
+      "features": ["Multi-Cloud Architecture", "Kubernetes & Containers", "Infrastructure as Code"]
+    },
+    "security": {
+      "title": "Cybersecurity",
+      "description": "Enterprise-grade protection frameworks ensuring compliance, data integrity, and zero-trust network access.",
+      "features": ["Zero-Trust Architecture", "Vulnerability Assessments", "Compliance Automation"]
+    },
+    "managed": {
+      "title": "Managed IT Services",
+      "description": "Proactive system monitoring, maintenance, and expert technical support to keep your operations running flawlessly.",
+      "features": ["24/7 Monitoring", "Disaster Recovery", "Helpdesk Support"]
+    }
+  },
+  "solutions": {
+    "badge": "Industries",
+    "title": "Tailored By Sector",
+    "subtitle": "We deploy specialized technology stacks that address the unique regulatory and operational demands of your industry.",
+    "finance": {
+      "title": "Financial Services",
+      "description": "High-frequency infrastructure and AI-driven fraud detection systems with strict compliance adherence."
+    },
+    "healthcare": {
+      "title": "Healthcare",
+      "description": "Secure patient data systems and machine learning applications for diagnostic assistance and operational efficiency."
+    },
+    "retail": {
+      "title": "Retail & E-commerce",
+      "description": "High-availability architectures and predictive inventory models designed for scale and conversion."
+    },
+    "logistics": {
+      "title": "Logistics & Supply Chain",
+      "description": "IoT integration and AI route optimization for real-time visibility and efficiency."
+    }
+  },
+  "process": {
+    "badge": "Methodology",
+    "title": "How We Work",
+    "subtitle": "A transparent, engineering-first approach to solving complex technical challenges.",
+    "discovery": {
+      "title": "Audit & Discovery",
+      "description": "We analyze your existing infrastructure, bottlenecks, and business goals."
+    },
+    "architecture": {
+      "title": "System Architecture",
+      "description": "Our engineers design a scalable, secure, and cost-effective solution blueprint."
+    },
+    "implementation": {
+      "title": "Development & Deployment",
+      "description": "Rigorous implementation using modern CI/CD pipelines and infrastructure as code."
+    },
+    "optimization": {
+      "title": "Monitoring & Optimization",
+      "description": "Continuous performance tuning, security patching, and proactive scaling."
+    }
+  },
+  "cta": {
+    "title": "Ready to modernize your infrastructure?",
+    "subtitle": "Connect with our engineering team to discuss your technical challenges and explore how our applied AI and IT solutions can drive your business forward.",
+    "button": "Schedule a Consultation"
+  },
+  "footer": {
+    "description": "Independent IT and Applied AI Services Solution Provider.",
+    "rights": "All rights reserved.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal"
+  }
+}
