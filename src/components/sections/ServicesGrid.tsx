@@ -34,9 +34,9 @@ export function ServicesGrid() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {servicesData.map((service, index) => (
             <MotionWrapper key={service.id} delay={0.1 * (index + 1)}>
-              <Card className="h-full transition-all duration-300 hover:border-primary/50 hover:shadow-md hover:-translate-y-1">
+              <Card className="h-full transition-all duration-300 hover:border-foreground/30 hover:shadow-md hover:-translate-y-1 bg-background relative overflow-hidden">
                 <CardHeader>
-                  <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 text-primary">
+                  <div className="w-12 h-12 rounded-lg border border-border bg-muted/30 flex items-center justify-center mb-4 text-foreground">
                     <Icon name={service.icon} className="w-6 h-6 stroke-[1.5]" />
                   </div>
                   <CardTitle className="text-xl">{t(service.titleKey)}</CardTitle>
@@ -49,7 +49,7 @@ export function ServicesGrid() {
                     {service.features.map((featureKey, fIndex) => (
                       <li key={fIndex} className="flex items-start gap-2 text-sm text-foreground">
                         <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                        <span>{t(featureKey)}</span>
+                        <span className="opacity-90">{t(featureKey)}</span>
                       </li>
                     ))}
                   </ul>

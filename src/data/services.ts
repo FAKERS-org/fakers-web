@@ -9,7 +9,7 @@ export interface ServiceItem {
 export const servicesData: ServiceItem[] = [
   {
     id: "applied-ai",
-    icon: "BrainCircuit",
+    icon: "chat-gpt.png",
     titleKey: "services.ai.title",
     descriptionKey: "services.ai.description",
     features: [
@@ -20,7 +20,7 @@ export const servicesData: ServiceItem[] = [
   },
   {
     id: "cloud-infra",
-    icon: "Cloud",
+    icon: "cloud-api.png",
     titleKey: "services.cloud.title",
     descriptionKey: "services.cloud.description",
     features: [
@@ -31,7 +31,7 @@ export const servicesData: ServiceItem[] = [
   },
   {
     id: "cybersecurity",
-    icon: "ShieldCheck",
+    icon: "web-design.png",
     titleKey: "services.security.title",
     descriptionKey: "services.security.description",
     features: [
@@ -42,7 +42,7 @@ export const servicesData: ServiceItem[] = [
   },
   {
     id: "managed-it",
-    icon: "ServerCog",
+    icon: "cloud.png",
     titleKey: "services.managed.title",
     descriptionKey: "services.managed.description",
     features: [
